@@ -234,3 +234,61 @@ html {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.wrapper {
+  max-width: 1260px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+html {
+  font-size: 6.25%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 20rem;
+}
+
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 166rem;
+  line-height: initial;
+}
+
+h2, h3, h4, h5, h6, blockquote {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 80px;
+  line-height: 92px;
+}
+
+h3 {
+  font-size: 56.3px;
+  line-height: initial;
+  letter-spacing: 1.3px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 43px;
+  letter-spacing: 1.3px;
+}
+
+h5 {
+  font-size: 42px;
+  letter-spacing: 1px;
+}
+
+h6 {
+  font-size: 32px;
+}
+
+h7 .special-heading {
+  font-size: 0px;
+  line-height: initial;
+  color: red;
+}

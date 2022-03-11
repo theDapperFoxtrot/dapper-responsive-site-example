@@ -1,0 +1,50 @@
+html {
+  font-size: calc(62.5% / 10);
+}
+
+body {
+  font-family: $body-font;
+  font-size: 20rem;
+}
+
+h1 {
+  font-family: $heading-font;
+  font-size: 166rem;
+  line-height: initial;
+}
+
+h2, h3, h4, h5, h6, blockquote {
+  font-family: $heading-font;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 80px;
+  line-height: 92px;
+}
+
+h3 {
+  font-size: 56.3px;
+  line-height: initial;
+  letter-spacing: 1.3px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 43px;
+  letter-spacing: 1.3px;
+}
+h5 {
+  font-size: 42px;
+  letter-spacing: 1px;
+}
+
+h6 {
+  font-size: 32px;
+}
+
+h7 .special-heading {
+  font-size: 0px;
+  line-height: initial;
+  color: red;
+}
