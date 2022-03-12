@@ -294,13 +294,51 @@ h6 {
   font-size: 32px;
 }
 
+.header-nav {
+  color: #F0EFED;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+nav li {
+  padding: 5px 20px;
+}
+
+nav a {
+  color: #F0EFED;
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+nav a:hover, nav a:focus {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+nav a:active {
+  color: #F8E71C;
+}
+
 body {
   background-color: #F0EFED;
   color: #2c2c2c;
 }
 
-button {
-  background-color: #0e902d;
-  color: #F0EFED;
-  border: none;
+.header-image {
+  position: absolute;
+  z-index: -1;
+}
+
+.black-banner {
+  background-color: #000;
 }
