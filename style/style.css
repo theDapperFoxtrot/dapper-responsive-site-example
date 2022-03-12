@@ -286,9 +286,3 @@ h5 {
 h6 {
   font-size: 32px;
 }
-
-h7 .special-heading {
-  font-size: 0px;
-  line-height: initial;
-  color: red;
-}
