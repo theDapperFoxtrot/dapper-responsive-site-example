@@ -237,7 +237,14 @@ html {
 
 .wrapper {
   max-width: 1260px;
+  min-width: 300px;
   width: 80%;
+  margin: 0 auto;
+}
+
+.content-container {
+  min-width: 300px;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -285,4 +292,15 @@ h5 {
 
 h6 {
   font-size: 32px;
+}
+
+body {
+  background-color: #F0EFED;
+  color: #2c2c2c;
+}
+
+button {
+  background-color: #0e902d;
+  color: #F0EFED;
+  border: none;
 }

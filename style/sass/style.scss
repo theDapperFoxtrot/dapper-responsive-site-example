@@ -4,3 +4,14 @@
 @import './partials/typography';
 @import './partials/nav';
 @import './partials/footer-banner';
+
+body {
+  background-color: $offwhite;
+  color: $black;
+}
+
+button {
+  background-color: $green;
+  color: $offwhite;
+  border: none;
+}

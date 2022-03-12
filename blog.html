@@ -8,9 +8,98 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./style/blog.css">
+  <script src="https://kit.fontawesome.com/cd121cf697.js" crossorigin="anonymous"></script>
   <title>Blog</title>
 </head>
 <body>
-  
+  <header class="header-nav">
+    <h4 class="planted-logo wrapper" id="home"><a href="./index.html"></a>Planted</h4>
+    <nav class="wrapper">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./index.html/#about">About</a></li>
+        <li><a href="./blog.html">Blog</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <h2>Blog</h2>
+  </header>
+  <div class="header-image">
+    <img src="./assets/blog-header-1.jpg">
+  </div>
+
+<aside>
+<img src="./assets/side-bar-image.jpg" alt="lush green leaves">
+<div class="content-container">
+<h6>About Planted</h6>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio a ut possimus perferendis aperiam quaerat. <a  href="./index.html#about">Find Out More</a></p>
+<h6>Recent Posts</h6>
+<ul>
+  <li>
+    <p>Lorem ipsum dolor sit.</p>
+  </li>
+  <li>
+    <p>Distinctio similique corrupti nemo.</p>
+  </li>
+  <li>
+    <p>Placeat porro excepturi laudantium?</p>
+  </li>
+  <li>
+    <p>Nihil voluptate consequatur amet!</p>
+  </li>
+</ul>
+</div>
+</aside>
+
+<main>
+  <img src="./assets/post-image.jpg" alt="">
+  <div class="wrapper">
+    <h3>Our mission at Planted</h3>
+    <h6><span class="post-date green-headings">Monday January 27th, 2019 by Yousra</span></h6>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta ipsa, ducimus assumenda, pariatur quo alias autem, commodi quasi dolorum maxime explicabo temporibus tempore incidunt consequuntur!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab itaque facilis dolorem veritatis velit omnis. Consequatur aliquam veritatis sed aperiam dolorum, assumenda debitis ex eum voluptatibus sint temporibus aliquid adipisci!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores sapiente reiciendis laboriosam neque cum, cupiditate, officia, possimus consequuntur illo illum unde. Expedita laboriosam iure facilis ducimus sint, asperiores sunt debitis placeat dolore ipsum voluptatibus laborum accusantium eius doloremque voluptates? Nulla voluptatibus fuga rerum quia magnam, aperiam rem error? Eius, dolore.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolorum tenetur quae esse et suscipit sequi deleniti eum aliquam soluta.</p>
+  </div>
+</main>
+<section class="comments">
+  <div class="wrapper">
+    <h6>Comments:</h6>
+    <img src="./assets/profile-image.jpg" alt="Jeremy">
+    <div class="comment-container">
+      <h6 class="comment-header"><span class="green-headings">Tuesday October 9th, 2018 by Jeremy</span></h6>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit laudantium illum, cumque itaque debitis similique veritatis sunt, labore adipisci explicabo est dolorum vel nulla voluptas ab sed velit. Totam, nostrum.</p>
+    </div>
+    <img src="./assets/profile-image-2.jpg" alt="Jeremy">
+    <div class="comment-container">
+      <h6 class="comment-header"><span class="green-headings">Tuesday October 9th, 2018 by Julia</span></h6>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit laudantium illum, cumque itaque debitis similique veritatis sunt, labore adipisci explicabo est dolorum vel nulla voluptas ab sed velit. Totam, nostrum.</p>
+    </div>
+  </div>
+</section>
+<section class="comment-form">
+  <div class="wrapper">
+    <form action="" method="post">
+      <div class="form-upper">
+        <div class="form-field">
+          <label class="sr-only" for="name">Enter your name</label><input placeholder="Name" type="text" id="name">
+        </div>
+        <div class="form-field">
+          <label class="sr-only" for="email">Enter your email</label><input placeholder="Email address" type="email" id="email">
+        </div>
+      </div>
+      <div class="comment-box">
+        <textarea placeholder="Comment" name="comment" id="comment" cols="30" rows="10"></textarea>
+      </div>
+    </form>
+    <button>Post Comment</button>
+  </div>
+</section>
+<footer>
+  <div class="wrapper">
+    <p>Copyright © 2022 Juno College</p>
+  </div>
+</footer>
 </body>
 </html>
