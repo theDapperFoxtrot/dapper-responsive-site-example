@@ -10,6 +10,10 @@ body {
   color: $black;
 }
 
+ul {
+  list-style: none;
+}
+
 .header-image {
   position: absolute;
   z-index: -1;

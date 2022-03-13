@@ -248,6 +248,10 @@ html {
   margin: 0 auto;
 }
 
+button {
+  background-color: #0e902d;
+}
+
 html {
   font-size: 6.25%;
 }
@@ -332,6 +336,10 @@ nav a:active {
 body {
   background-color: #F0EFED;
   color: #2c2c2c;
+}
+
+ul {
+  list-style: none;
 }
 
 .header-image {

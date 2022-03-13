@@ -7,8 +7,14 @@
   margin: 0 auto;
 }
 
+//containt container
 .content-container {
   min-width: 300px;
   width: 90%;
   margin: 0 auto;
+}
+
+//buttons
+button {
+  background-color: $green;
 }
