@@ -1,5 +1,4 @@
 //wrapper
-
 .wrapper {
   max-width: 1260px;
   min-width: 300px;
@@ -9,12 +8,15 @@
 
 //containt container
 .content-container {
-  min-width: 300px;
   width: 90%;
   margin: 0 auto;
 }
 
 //buttons
 button {
+  font-family: $heading-font;
   background-color: $green;
+  color: $offwhite;
+  border: none;
+  padding: 10px 20px;
 }

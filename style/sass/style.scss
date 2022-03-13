@@ -14,11 +14,87 @@ ul {
   list-style: none;
 }
 
-.header-image {
+.header-image img {
   position: absolute;
   z-index: -1;
+  height: 500px;
 }
 
 .black-banner {
   background-color: #000;
 }
+
+.header-box {
+  width: 100%;
+}
+
+.about {
+  text-align: center;
+}
+
+main img {
+width: 100%;
+margin: 20px 0;
+}
+
+h6 {
+  margin: 30px 0;
+}
+
+.green-houses {
+  margin-left: 10px;
+}
+
+.options-icon-green-houses {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10px;
+}
+.options-icon-community {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10px;
+
+}
+.options-icon-blog {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: -40px;
+
+}
+.options-icon-get-in-touch {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: -40px;
+
+}
+
+.icon-background {
+  padding: 10px;
+  background-color: $yellow;
+  border-radius: 50%;
+}
+
+// .options .green-houses::before {
+// content: '\f06c';
+// // <i class="fa-solid fa-leaf"></i>
+// }
+
+// .options .community::before {
+//   content: '\f0c0';
+//   // <i class="fa-solid fa-users"></i>
+// }
+
+// .options .blog::before {
+//   content: '\f15b';
+//   // <i class="fa-solid fa-file"></i>
+// }
+
+// .options .get-in-touch::before {
+//   content: '\f879';
+//   // <i class="fa-solid fa-phone-flip"></i>
+// }
