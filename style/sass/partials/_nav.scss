@@ -1,5 +1,8 @@
 .header-nav {
   color: $offwhite;
+  position: absolute;
+  top: 10px;
+  width: 100%;
 }
 
 nav ul {
@@ -17,6 +20,8 @@ nav a{
   color: $offwhite;
   text-decoration: none;
   font-family: $heading-font;
+  text-decoration: underline rgb(240, 239, 237, 0);
+  transition: text-decoration 0.75s ease, color 0.5s ease;
 }
 
 nav a:hover, nav a:focus {

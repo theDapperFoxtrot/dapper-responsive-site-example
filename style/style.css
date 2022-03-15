@@ -303,6 +303,9 @@ h6 {
 
 .header-nav {
   color: #F0EFED;
+  position: absolute;
+  top: 10px;
+  width: 100%;
 }
 
 nav ul {
@@ -325,6 +328,12 @@ nav a {
   color: #F0EFED;
   text-decoration: none;
   font-family: "Josefin Sans", sans-serif;
+  -webkit-text-decoration: underline rgba(240, 239, 237, 0);
+          text-decoration: underline rgba(240, 239, 237, 0);
+  -webkit-transition: color 0.5s ease, -webkit-text-decoration 0.75s ease;
+  transition: color 0.5s ease, -webkit-text-decoration 0.75s ease;
+  transition: text-decoration 0.75s ease, color 0.5s ease;
+  transition: text-decoration 0.75s ease, color 0.5s ease, -webkit-text-decoration 0.75s ease;
 }
 
 nav a:hover, nav a:focus {
@@ -345,18 +354,57 @@ ul {
   list-style: none;
 }
 
+.header-image {
+  width: 100%;
+  overflow: hidden;
+}
+
+.home-image {
+  height: 525px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .header-image img {
-  position: absolute;
-  z-index: -1;
-  height: 500px;
+  position: relative;
+  height: 525px;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
 }
 
 .black-banner {
   background-color: #000;
 }
 
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.title-white {
+  font-size: 60rem;
+  position: absolute;
+  top: 260px;
+  z-index: 2;
+}
+
+.title-yellow {
+  font-size: 60rem;
+  position: absolute;
+  top: 320px;
+  z-index: 2;
+  color: #F8E71C;
+}
+
 .header-box {
-  width: 100%;
+  position: absolute;
+  top: 260px;
+  right: 0;
+  max-height: 280px;
 }
 
 .about {
@@ -368,12 +416,42 @@ main img {
   margin: 20px 0;
 }
 
-h6 {
-  margin: 30px 0;
+.left-flowers {
+  width: 65%;
+  -webkit-box-shadow: 10px 10px #f8e71c;
+          box-shadow: 10px 10px #f8e71c;
 }
 
-.green-houses {
-  margin-left: 10px;
+.right-flowers {
+  width: 65%;
+  -webkit-box-shadow: -10px 10px #f8e71c;
+          box-shadow: -10px 10px #f8e71c;
+}
+
+.right-flowers-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h6 {
+  margin: 30px 0 30px 10px;
 }
 
 .options-icon-green-houses {
@@ -415,7 +493,7 @@ h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: -40px;
+  margin-left: 10px;
 }
 
 .options-icon-get-in-touch {
@@ -429,11 +507,76 @@ h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: -40px;
+  margin-left: 10px;
 }
 
 .icon-background {
   padding: 10px;
+  width: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #F8E71C;
   border-radius: 50%;
+}
+
+.window-image {
+  width: 100%;
+  margin: 30px 0;
+}
+
+.founder {
+  width: 227px;
+  margin-left: 10%;
+  -webkit-box-shadow: 10px 10px #f8e71c;
+          box-shadow: 10px 10px #f8e71c;
+}
+
+.founder-section button {
+  width: 100%;
+}
+
+.bottom-gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bottom-gallery ul {
+  padding-left: 0;
+}
+
+.bottom-gallery img {
+  width: 290px;
+}
+
+footer p {
+  text-align: center;
+}
+
+@media (min-width: 480px) {
+  body {
+    background-color: blue;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    background-color: green;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    background-color: purple;
+  }
+}
+@media (min-width: 1280px) {
+  body {
+    background-color: orange;
+  }
 }
