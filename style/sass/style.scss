@@ -14,6 +14,20 @@ ul {
   list-style: none;
 }
 
+footer .wrapper {
+  width: 100%;
+  padding: 1px 0;
+  background-color: rgb(22, 22, 22);
+}
+
+footer p {
+  text-align: center;
+  color: white;
+}
+
+
+// HOME STYLES
+
 .header-image {
   width: 100%;
   overflow: hidden;
@@ -32,7 +46,7 @@ ul {
 
 .black-banner {
   padding: 10px 0 10px 0;
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .title {
@@ -64,6 +78,11 @@ ul {
 
 .about {
   text-align: center;
+  margin-bottom: 70px;
+}
+
+main {
+  background-color: white;
 }
 
 main img {
@@ -71,25 +90,41 @@ width: 100%;
 margin: 20px 0;
 }
 
+.left-content-container h6 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20rem;
+}
+
+.right-content-container {
+  text-align: right;
+}
+
+.right-content-container h6 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20rem;
+}
+
+.right-content-container button {
+  margin-bottom: 30px;
+}
+
 .left-flowers {
-  width: 65%;
-  box-shadow: 10px 10px rgb(248, 231, 28);
+  width: 80%;
+  box-shadow: 15px 15px rgb(248, 231, 28);
+  margin-top: -15px;
 }
 
 .right-flowers {
-  width: 65%;
-  box-shadow: -10px 10px rgb(248, 231, 28);
+  width: 80%;
+  box-shadow: -15px 15px rgb(248, 231, 28);
+  margin-top: 15px;
 }
 
 .right-flowers-container {
   display: flex;
   justify-content: flex-end;
-}
-
-.content-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 h6 {
@@ -139,19 +174,31 @@ h6 {
   margin: 30px 0;
 }
 
+.founder-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .founder {
   width: 227px;
-  margin-left: 10%;
   box-shadow: 10px 10px rgb(248, 231, 28);
 }
 
 .founder-section button {
-  width: 100%
+  display: initial;
+}
+
+.founder-section button {
+  width: 100%;
+  margin-bottom: 50px;
 }
 
 .bottom-gallery {
   display: flex;
   justify-content: center;
+  background-color: white;
 }
 
 .bottom-gallery ul {
@@ -162,9 +209,7 @@ h6 {
   width: 290px;
 }
 
-footer p {
-  text-align: center
-}
+// BLOG STYLES
 
 .blog-image {
   margin: -20px 0 0 -50px;
@@ -188,6 +233,9 @@ main h6 {
 }
 
 aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-left: 10px;
   margin-top: 20px;
   max-width: 300px;
@@ -197,8 +245,9 @@ aside .aside-white-box {
   position: absolute;
   z-index: -1;
   top: 520px;
-  width: 305px;
-  height: 640px;
+  width: 93%;
+  max-width: 405px;
+  height: 75vh;
   background-color: #fff;
 }
 
@@ -229,13 +278,84 @@ aside a{
 }
 
 aside img {
-  margin-left: -10px;
+  margin-left: -20px;
   margin-top: -20px;
-  max-width: 300px;
+  width: 92vw;
+  max-width: 400px;
 }
 
-main h6 span {
+.blog-main {
+  background-color: $offwhite;
+}
+
+.post-image-yellow-background {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.post-image {
+  max-width: 90%;
+  box-shadow: -20px 20px $yellow;
+}
+
+.blog-main h3 {
+  margin: 0;
+}
+
+main div h6 {
+  font-weight: 400;
+  font-style: italic;
+  color: $forestgreen;
+}
+
+.post-date {
+  color: $forestgreen;
   font-weight: 700;
 }
+
+.post {
+  box-shadow: -10px 0px 0 10px $yellow;
+padding: 40px 0 20px 20px
+}
+
+.comment-form {
+  display: flex;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.form-upper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#name {
+  width: 48%;
+  padding: 10px;
+}
+
+#email {
+  width: 48%;
+  padding: 10px;
+}
+
+#comment {
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.comment-form button {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
 
 @import './partials/media-queries';
