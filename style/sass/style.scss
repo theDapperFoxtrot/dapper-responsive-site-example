@@ -5,7 +5,7 @@
 @import './partials/nav';
 @import './partials/footer-banner';
 
-body {
+html, body {
   background-color: $offwhite;
   color: $black;
   overflow-x: hidden;
