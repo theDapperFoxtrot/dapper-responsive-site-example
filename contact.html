@@ -13,7 +13,7 @@
 </head>
 <body>
   <div class="header-image">
-    <img src="./assets/contact-header-1.jpg">
+    <img class="contact-image" src="./assets/contact-header-1.jpg">
   </div>
   <header class="header-nav">
     <div class="black-banner">
@@ -26,53 +26,38 @@
         <li><a href="./contact.html" style="color: #F8E71C">CONTACT</a></li>
       </ul>
     </nav>
-    <h2>Get in Touch</h2>
+    <h2 class="contact-header">Get in Touch</h2>
   </div>
   </header>
-<aside>
+<aside class="contact-info-container">
   <div class="content-container">
-    <ul class="social">
-      <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-      <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-      <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-      <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+    <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
     </ul>
     <h6>info@email.com</h6>
-    <ul>
-      <li>
-        <p>123 - 456 - 7890</p>
-      </li>
-      <li>
-        <p>123 Queen Street West, Unit 10</p>
-      </li>
-      <li>
-        <p>Toronto, Ontario</p>
-      </li>
-      <li>
-        <p>M5V2D5</p>
-      </li>
-    </ul>
+    <p>123 - 456 - 7890</p>
+    <p>123 Queen Street West, Unit 10</p>
+    <p>Toronto, Ontario</p>
+    <p>M5V2D5</p>
   </div>
 </aside>
 
 <main class="contact-form">
-  <div class="wrapper">
-    <form action="" method="post">
-      <div class="form-upper">
-        <div class="form-field">
-          <label class="sr-only" for="name">Enter your name</label><input placeholder="Name" type="text" id="name">
+    <div class="wrapper">
+      <form action="" method="post">
+        <div class="form-upper">
+            <label class="sr-only" for="name">Enter your name</label><input placeholder="Name" type="text" id="contact-name">
+            <label class="sr-only" for="email">Enter your email</label><input placeholder="Email address" type="email" id="contact-email">
         </div>
-        <div class="form-field">
-          <label class="sr-only" for="email">Enter your email</label><input placeholder="Email address" type="email" id="email">
-        </div>
-      </div>
-      <div class="comment-box">
-        <textarea placeholder="Message" name="comment" id="comment" cols="30" rows="10"></textarea>
-      </div>
-    </form>
-    <button>Post Comment</button>
-  </div>
-</main>
+          <textarea placeholder="Message" name="message" id="contact-message" cols="25" rows="5"></textarea>
+      </form>
+      <button>Submit</button>
+    </div>
+  </main>
 
   <footer>
     <div class="wrapper">

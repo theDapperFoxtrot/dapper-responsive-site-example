@@ -8,26 +8,293 @@
   }
 
 @media (min-width: 480px) {
-  body {
-    background-color: blue;
+
+
+  // HOME PAGE
+  .header-box {
+    max-height: initial;
+    max-height: 360px;
+    top: 200px;
+  }
+
+  //HOME PAGE - MAIN
+
+  main {
+    max-height: 750px;
+    margin-bottom: 100px;
+    transition: all 0.75s ease-in-out;
 }
+
+  .left-flowers {
+    width: 45%;
+  }
+
+  .right-flowers {
+    width: 45%;
+    position: relative;
+    top: 20px;
+  }
+
+  .right-main-container {
+    flex-direction: column-reverse;
+    position: relative;
+    top: -380px;
+    align-items: flex-end;
+  }
+
+  .right-main-container p {
+  padding-right: 50px;
+  }
+
+  .left-main-container p {
+    padding-left: 50px;
+    }
+  
+  .left-content-container {
+    max-width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    margin: initial;
+  }
+
+  .right-content-container {
+    max-width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: initial;
+  }
+
+  //BLOG PAGE
+  .comments {
+    position: relative;
+    top: 500px;
+  }
+
+  .comment-form {
+      position: relative;
+      top: 500px;
+    } 
+
+    .blog-aside-image {
+      width: 92vw;
+      max-width: 700px;
+    }
+    
+    .aside-blog-about {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 20%;
+      margin-top: 20px;
+      max-width: 300px;
+    }
+    
+    
+    aside .aside-white-box {
+      top: 20px;
+      left: 20px;
+    
+    }
+    
+
+  footer {
+      position: relative;
+      top: 0px;
+    }
 }
 
 @media (min-width: 768px) {
+
   body {
     background-color: green;
+  }
+
+nav ul {
+  flex-direction: row;
+  position: absolute;
+  top: -10px;
+  left: 30%;
 }
+
+.black-banner {
+  position: relative;
+  top: -10px;
+  padding: 10px 0 10px 0;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+
+//HOME PAGE
+
+main {
+  max-height: 650px;
+  margin-bottom: 100px;
+}
+
+.upper-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.lower-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.options-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.founder-section {
+  flex-direction: row;
+}
+
+.founder-content {
+  align-items: flex-start;
+  max-width: 1000px;
+}
+
+.founder {
+  margin-left: 100px;
+}
+
+.founder-content  h5{
+  margin: 30px 0 20px 0;
+}
+
+.bottom-gallery ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom-gallery li {
+  margin: 40px 15px 40px 15px;
+}
+
+.bottom-gallery img {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 290px;
+}
+
+//BLOG PAGE
+.blog-content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+
+  .blog-main {
+    background-color: rgba(255, 255, 255, 0);
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .post {
+    background-color: $offwhite;
+    max-width: 975px;
+  }
+
+  .comments {
+    background-color: $offwhite;
+    position: relative;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 50%;
+}
+
+.comment-form {
+  background-color: $offwhite;
+  position: relative;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 50%;
+}
+
+
+footer {
+  position: relative;
+  bottom: 0;
+}
+
 }
 
 @media (min-width: 1024px) {
   body {
     background-color: purple;
 }
+
+.title-white {
+  font-size: 166rem;
+  top: 100px;
+}
+
+.title-yellow {
+  font-size: 166rem;
+  top: 250px;
+}
+
+main {
+  max-height: 750px;
+  margin-bottom: 100px;
+}
+
 }
 
 @media (min-width: 1280px) {
   body {
     background-color: orange;
 }
+
+main {
+  max-height: 1000px;
+  margin-bottom: 100px;
 }
+
+.header-box {
+  max-height: initial;
+  max-height: 500px;
+  top: 100px;
+}
+
+}
+
+@media (min-width: 1600px) {
+  body {
+    background-color: pink;
+}
+
+.home-image {
+  width: 120%;
+}
+
+.blog-image {
+  width: 120%;
+}
+
+.contact-image {
+  width: 120%;
+}
+
+
+}
+
 
