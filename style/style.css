@@ -637,12 +637,12 @@ h6 {
 }
 
 .window-image-container {
-  width: 105%;
+  width: 100%;
 }
 
 .window-image {
-  width: 102%;
-  margin: 30px 0 30px -20px;
+  width: 100%;
+  margin: 30px 0 30px 0px;
 }
 
 .founder-section {
@@ -713,8 +713,9 @@ h6 {
      object-fit: cover;
 }
 
-header h2 {
+.blog-h2 {
   color: #F8E71C;
+  display: inline-block;
 }
 
 main h6 {
@@ -1404,7 +1405,7 @@ form {
 
   .blog-footer {
     position: relative;
-    top: 500px;
+    top: 0px;
   }
 
   .contact-container {
