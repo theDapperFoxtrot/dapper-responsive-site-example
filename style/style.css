@@ -636,8 +636,13 @@ h6 {
   border-radius: 50%;
 }
 
+.window-image-container {
+  width: 105%;
+}
+
 .window-image {
-  width: 100%;
+  width: 102%;
+  margin: 30px 0 30px -20px;
 }
 
 .founder-section {
@@ -1399,7 +1404,7 @@ form {
 
   .blog-footer {
     position: relative;
-    top: 0px;
+    top: 500px;
   }
 
   .contact-container {
