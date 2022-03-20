@@ -145,12 +145,15 @@ h6 {
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 
 .options-text {
   display: flex;
   flex-direction: column;
   max-width: 475px;
+  padding: 0 30px;
+  margin-left: 45px;
 }
 
 
@@ -158,29 +161,28 @@ h6 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 10px;
+  margin-left: -55px;
 }
 
 .options-icon-community {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 10px;
-
+  margin-left: -55px;
 }
 
 .options-icon-blog {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 10px;
+  margin-left: -55px;
 }
 
 .options-icon-get-in-touch {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 10px;
+  margin-left: -55px;
 }
 
 .icon-background {
@@ -273,6 +275,11 @@ margin-left: -450px;
 
 .blog-aside-content-container  {
   position: relative;
+  max-width: 280px;
+}
+
+.blog-aside-content-container h6 {
+margin-left: 0;
 }
 
 .aside-blog-about {
