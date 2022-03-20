@@ -636,14 +636,8 @@ h6 {
   border-radius: 50%;
 }
 
-.window-image-container {
-  width: 102%;
-  overflow: hidden;
-}
-
 .window-image {
-  width: 105%;
-  margin: 30px 0 30px -20px;
+  width: 100%;
 }
 
 .founder-section {
