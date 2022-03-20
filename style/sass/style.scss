@@ -6,30 +6,35 @@
 @import './partials/footer-banner';
 
 body {
-  background-color: $offwhite;
-  color: $black;
-  overflow-x: hidden;
-  transition: all 0.75s ease-in-out;
+background-color: $offwhite;
+color: $black;
+overflow-x: hidden;
+transition: all 0.75s ease-in-out;
 }
 
 .skip-link {
-  position: absolute;
-  left: -1000px;
-  top: 5px;
-  z-index: 999;
-  background: white;
-  color: black;
+position: absolute;
+left: -1000px;
+top: 5px;
+z-index: 999;
+background: white;
+color: black;
 }
 
 .skip-link:focus {
-  left: 0;
+left: 0;
 }
 
 ul {
-  list-style: none;
+list-style: none;
 }
 
-// HOME STYLES
+//LEGEND
+  //HOME PAGE STYLES
+    //BLOG PAGE STYLES
+      //CONTACT PAGE STYLES
+
+  // HOME STYLES
 
 .header-image {
   height: 525px;
@@ -75,19 +80,22 @@ ul {
   transition: all 0.75s ease-in-out;
 }
 
+//HOME PAGE - ABOUT SECTION
 .about {
   text-align: center;
   margin-top: 180px;
   margin-bottom: 180px;
 }
 
+//HOME PAGE - MAIN SECTION
+
 main {
   background-color: white;
 }
 
 main img {
-width: 100%;
-margin: 20px 0;
+  width: 100%;
+  margin: 20px 0;
 }
 
 .left-content-container h6 {
@@ -154,6 +162,7 @@ h6 {
   margin: 30px 0 30px 10px;
 }
 
+//HOME PAGE - OPTIONS SECTION
 .options {
   display: flex;
   flex-direction: column;
@@ -216,6 +225,7 @@ h6 {
   margin: 30px 0 30px 0px;
 }
 
+//HOME PAGE - FOUNDER SECTION
 .founder-section {
   display: flex;
   flex-direction: column;
@@ -243,6 +253,7 @@ h6 {
   margin-bottom: 50px;
 }
 
+//HOME PAGE - BOTTOM GALLERY SECTION
 .bottom-gallery {
   display: flex;
   justify-content: center;
@@ -257,264 +268,258 @@ h6 {
   width: 290px;
 }
 
-// BLOG STYLES
+    // BLOG STYLES
 
 .blog-image {
-  margin: -20px 0 0 -50px;
-  object-fit: cover;
+    margin: -20px 0 0 -50px;
+    object-fit: cover;
 }
 
 .blog-h2 {
-  color: #F8E71C;
-  display: inline-block;
+    color: #F8E71C;
+    display: inline-block;
 }
 
 main h6 {
-  margin: 0;
+    margin: 0;
 }
 
 .comments h6 {
-  margin-left: 0;
+    margin-left: 0;
 }
 
 .blog-aside-image-container {
-width: 100%;
-margin-left: -450px;
+  width: 100%;
+  margin-left: -450px;
 }
 
 .blog-aside-image {
-  position: relative;
-  z-index: 1;
+    position: relative;
+    z-index: 1;
 }
 
 .blog-aside-content-container  {
-  position: relative;
-  max-width: 280px;
+    position: relative;
+    max-width: 280px;
 }
 
 .blog-aside-content-container h6 {
-margin-left: 0;
+    margin-left: 0;
 }
 
 .aside-blog-about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-left: 100px;
-  margin-top: 20px;
-  max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 20px;
+    max-width: 300px;
 }
-
 
 .aside-white-box {
-  position: absolute;
-  top: 560px;
-  width: 310px;
-  height: 1055px;
-  background-color: #fff;
+    position: absolute;
+    top: 560px;
+    width: 310px;
+    height: 1055px;
+    background-color: #fff;
 }
 
-
 aside p {
-  margin: 0;
-  line-height: 30px;
-  font-size: 16rem;
+    margin: 0;
+    line-height: 30px;
+    font-size: 16rem;
 }
 
 aside a{
-  text-decoration: none;
-  color: $black;
+    text-decoration: none;
+    color: $black;
 }
 
 .find-out-more-a {
-  font-weight: 700;
-  font-style: italic;
-  color: $forestgreen;
+    font-weight: 700;
+    font-style: italic;
+    color: $forestgreen;
 }
 
 .content-container h6 {
-  font-size: 20rem;
-  margin: 10px 0;
+    font-size: 20rem;
+    margin: 10px 0;
 }
 
 
 .blog-main {
-  background-color: $offwhite;
-  position: relative;
-  z-index: 1;
+    background-color: $offwhite;
+    position: relative;
+    z-index: 1;
 }
 
 .post-image-yellow-background {
-  display: flex;
-  justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .post-image {
-  max-width: 90%;
-  box-shadow: -20px 20px $yellow;
+    max-width: 90%;
+    box-shadow: -20px 20px $yellow;
 }
 
 .blog-main h3 {
-  margin: 0;
+    margin: 0;
 }
 
 main div h6 {
-  font-weight: 400;
-  font-style: italic;
-  color: $forestgreen;
+    font-weight: 400;
+    font-style: italic;
+    color: $forestgreen;
 }
 
 .post-date {
-  color: $forestgreen;
-  font-weight: 700;
+    color: $forestgreen;
+    font-weight: 700;
 }
 
 .post {
-  box-shadow: -10px 0px 0 10px $yellow;
-padding: 40px 0 20px 20px
+    box-shadow: -10px 0px 0 10px $yellow;
+    padding: 40px 0 20px 20px
 }
 
 .comment-form {
-  display: flex;
+    display: flex;
 }
 
 form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-
 .form-upper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
 }
 
 #name {
-  background-color: $offwhite;
-  width: 48%;
-  padding: 10px;
-  border: none;
-  border-bottom: 2px $green solid;
-
+    background-color: $offwhite;
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px $green solid;
 }
 
 #name::placeholder {
-  color: black;
-  opacity: 1;
-  font-family: 'Josefin Sans', 'sans-serif';
-  font-weight: 300;
+    color: black;
+    opacity: 1;
+    font-family: 'Josefin Sans', 'sans-serif';
+    font-weight: 300;
 }
 
 #email {
-  background-color: $offwhite;
-  width: 48%;
-  padding: 10px;
-  border: none;
-  border-bottom: 2px $green solid;
+    background-color: $offwhite;
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px $green solid;
 }
 
 #email::placeholder {
-  color: black;
-  opacity: 1;
-  font-family: 'Josefin Sans', 'sans-serif';
-  font-weight: 300;
+    color: black;
+    opacity: 1;
+    font-family: 'Josefin Sans', 'sans-serif';
+    font-weight: 300;
 }
 
 #comment {
-  background-color: $offwhite;
-  width: 100%;
-  margin: 10px 0;
-  padding: 10px;
-  border: 2px $green solid;
+    background-color: $offwhite;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px $green solid;
 }
 
 #comment::placeholder {
-  color: black;
-  opacity: 1;
-  font-family: 'Josefin Sans', 'sans-serif';
-  font-weight: 300;
+    color: black;
+    opacity: 1;
+    font-family: 'Josefin Sans', 'sans-serif';
+    font-weight: 300;
 }
 
 
 .comment-form button {
-  width: 100%;
-  margin-bottom: 10px;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
-// CONTACT PAGE
+      // CONTACT PAGE
 
 .contact-header {
-  margin: 0;
+      margin: 0;
 }
 
 .social-icons {
-  display: flex;
-  flex-direction: row;
-  margin: 0 0 0 -10px;
+      display: flex;
+      flex-direction: row;
+      margin: 0 0 0 -10px;
 }
 
 .social-icons a {
-  color: $green;
-  margin: 20px 10px 0 10px;
+      color: $green;
+      margin: 20px 10px 0 10px;
 }
 
 .contact-form {
-  background-color: #fff;
-  padding: 20px 0;
-  box-shadow: -10px 10px #F8E71C;
+      background-color: #fff;
+      padding: 20px 0;
+      box-shadow: -10px 10px #F8E71C;
 }
 
-  #contact-name {
-    width: 48%;
-    padding: 10px;
-    border: none;
-    border-bottom: 2px $green solid;
-  }
-  
-  #contact-name::placeholder {
-    color: black;
-    opacity: 1;
-    font-family: 'Josefin Sans', 'sans-serif';
-    font-weight: 300;
-  }
-  
-  #contact-email {
-    width: 48%;
-    padding: 10px;
-    border: none;
-    border-bottom: 2px $green solid;
-  }
-  
-  #contact-email::placeholder {
-    color: black;
-    opacity: 1;
-    font-family: 'Josefin Sans', 'sans-serif';
-    font-weight: 300;
-  }
-  
-  #contact-message {
-    width: 100%;
-    height: 100%;
-    margin: 10px;
-    padding: 10px;
-    border: 2px $green solid;
-  }
-  
-  #contact-message::placeholder {
-    color: black;
-    opacity: 1;
-    font-family: 'Josefin Sans', 'sans-serif';
-    font-weight: 300;
-  }
-  
-  .contact-form button {
-    width: 100%;
-  }
+#contact-name {
+      width: 48%;
+      padding: 10px;
+      border: none;
+      border-bottom: 2px $green solid;
+}
 
+#contact-name::placeholder {
+      color: black;
+      opacity: 1;
+      font-family: 'Josefin Sans', 'sans-serif';
+      font-weight: 300;
+}
 
+#contact-email {
+      width: 48%;
+      padding: 10px;
+      border: none;
+      border-bottom: 2px $green solid;
+}
+
+#contact-email::placeholder {
+      color: black;
+      opacity: 1;
+      font-family: 'Josefin Sans', 'sans-serif';
+      font-weight: 300;
+}
+
+#contact-message {
+      width: 100%;
+      height: 100%;
+      margin: 10px;
+      padding: 10px;
+      border: 2px $green solid;
+}
+
+#contact-message::placeholder {
+      color: black;
+      opacity: 1;
+      font-family: 'Josefin Sans', 'sans-serif';
+      font-weight: 300;
+}
+
+.contact-form button {
+      width: 100%;
+}
 
 @import './partials/media-queries';

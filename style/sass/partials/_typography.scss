@@ -2,6 +2,7 @@ html {
   font-size: calc(62.5% / 10);
 }
 
+//Applying styles according to the style guide initially, but ultimately overwriting much of it in favour of cleaner look. Without a designer to confer with, I took some liberties.
 body {
   font-family: $body-font;
   font-size: 20rem;
