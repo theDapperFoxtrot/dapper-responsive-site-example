@@ -255,6 +255,26 @@ button {
   padding: 10px 20px;
 }
 
+button:active {
+  background-color: #fff;
+  color: #0e902d;
+  border: 1px #0e902d solid;
+}
+
+.submit-button {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #0e902d;
+  color: #F0EFED;
+  border: none;
+  padding: 10px 20px;
+}
+
+.submit-button:active {
+  background-color: #fff;
+  color: #0e902d;
+  border: 1px #0e902d solid;
+}
+
 html {
   font-size: 6.25%;
 }
@@ -998,7 +1018,7 @@ form {
   font-weight: 300;
 }
 
-.comment-form button {
+.submit-button {
   width: 100%;
   margin-bottom: 10px;
 }

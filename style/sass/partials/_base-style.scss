@@ -20,3 +20,23 @@ button {
   border: none;
   padding: 10px 20px;
 }
+
+button:active {
+  background-color: #fff;
+  color: $green;
+  border: 1px $green solid;
+}
+
+.submit-button {
+  font-family: $heading-font;
+  background-color: $green;
+  color: $offwhite;
+  border: none;
+  padding: 10px 20px;
+}
+
+.submit-button:active {
+  background-color: #fff;
+  color: $green;
+  border: 1px $green solid;
+}
