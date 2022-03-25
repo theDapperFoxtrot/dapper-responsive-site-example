@@ -71,32 +71,36 @@
       </div>
     </div>
     </main>
-    <section class="comments">
-      <div class="wrapper">
-        <h6>Comments:</h6>
-        <img src="./assets/profile-image.jpg" alt="Jeremy">
-        <div class="comment-container">
-          <h6 class="comment-header"><span class="green-headings">Tuesday October 9th, 2018 by Jeremy</span></h6>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit laudantium illum, cumque itaque debitis similique veritatis sunt, labore adipisci explicabo est dolorum vel nulla voluptas ab sed velit. Totam, nostrum.</p>
-        </div>
-        <img src="./assets/profile-image-2.jpg" alt="Jeremy">
-        <div class="comment-container">
-          <h6 class="comment-header"><span class="green-headings">Tuesday October 9th, 2018 by Julia</span></h6>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit laudantium illum, cumque itaque debitis similique veritatis sunt, labore adipisci explicabo est dolorum vel nulla voluptas ab sed velit. Totam, nostrum.</p>
-        </div>
-      </div>
-    </section>
-    <!-- to put Name/Email side by side: you need to put name and e-mail inside the same div, each one with width: 48%. This div will be display: flex | flex-direction-column | justify-content: space-between.  -->
     <section class="comment-form">
       <div class="wrapper">
+        <h6 class="comment-header">Comments:</h6>
         <form action="" method="get">
           <div class="form-upper">
-            <label class="sr-only" for="name">Enter your name</label><input placeholder="Name" type="text" id="name">
-            <label class="sr-only" for="email">Enter your email</label><input placeholder="Email address" type="email" id="email">
+            <label class="sr-only" for="name">Enter your name</label><input placeholder="Name" name="name" type="text" id="name">
+            <label class="sr-only" for="email">Enter your email</label><input placeholder="Email address" name="email" type="email" id="email">
           </div>
           <textarea placeholder="Comment" name="comment" id="comment" cols="25" rows="5"></textarea>
           <input class="submit-button" type="submit" value="Post Comment">
         </form>
+      </div>
+    </section>
+    <section class="comments">
+      <div class="comments-wrapper wrapper">
+        <!-- <img src="./assets/profile-image.jpg" alt="Jeremy"> -->
+        <!-- <div class="comment-container">
+          <h6 class="comment-header"><span class="green-headings">Tuesday October 9th, 2018 by Jeremy</span></h6>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit laudantium illum, cumque itaque debitis similique veritatis sunt, labore adipisci explicabo est dolorum vel nulla voluptas ab sed velit. Totam, nostrum.</p>
+        </div>
+        <!-- <img src="./assets/profile-image-2.jpg" alt="Jeremy"> -->
+        <!-- <div class="comment-container">
+          <h6 class="comment-header"><span class="green-headings">Tuesday October 9th, 2018 by Julia</span></h6>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit laudantium illum, cumque itaque debitis similique veritatis sunt, labore adipisci explicabo est dolorum vel nulla voluptas ab sed velit. Totam, nostrum.</p>
+        </div> -->
+        <!-- <div class="comment-container">
+          <h6 class="comment-header"><span class="green-headings"></span></h6>
+          <p></p>
+        </div> -->
+
       </div>
     </section>
     <footer class="blog-footer">
